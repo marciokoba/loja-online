@@ -6,7 +6,7 @@ pull_request:
 
   jobs:
     testes:
-      runs-on: ubuntu-lastest
+      runs-on: Sequoia 15.7.3
       steps:
         - uses: actions/checkout@v4
         - name: Instalar dependências
