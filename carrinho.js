@@ -4,7 +4,7 @@ function calcularTotalCarrinho(params) {
     }
     
     return itens.reduce ((total, item) => {
-        return total + item.preco * item.quantidade;
+        return total + item.preco * item.quantidadea;
        }, 0);
 }
 
