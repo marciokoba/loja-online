@@ -1,5 +1,20 @@
-#Loja Online - titulo para campanha atual
+# Loja Online
 
-##Contato
-Duvidas: contato@loja.com.br
-contato por Tel: 11 000-0000
+Projeto de e-commerce desenvolvido na disciplina git, agile & dev culture.
+
+## Como rodar
+
+git clone https://github.com/marciokoba/loja-online.git
+cd loja-online
+npm install
+npm start
+
+## Estrutura
+
+- /src - código da aplicação
+- /testes - testes automatizados
+- .github/worksflows - pipeline de CI
+
+## Como contribuir
+
+Veja o fluxo de pull Request no CONTRIBUTING.md
