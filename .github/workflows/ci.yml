@@ -1,13 +1,13 @@
 name: CI
 
 on:
-pull_request:
+  pull_request:
   branches: [ main ]
 
-  jobs:
-    testes:
-      runs-on: ubuntu-latest
-      steps:
+jobs:
+  testes:
+    runs-on: ubuntu-latest
+    steps:
       - uses: actions/checkout@v4
       - name: Instalar dependências
       run: npm install
